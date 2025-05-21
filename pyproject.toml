@@ -1,0 +1,14 @@
+[project]
+name = "mini-wf-engine"
+version = "0.1.0"
+description = "A mini workflow engine"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
